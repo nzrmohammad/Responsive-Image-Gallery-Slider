@@ -30,7 +30,29 @@ Gallery With Simple Modal
 نمونه کد
 html
 Copy code
-<!-- کد نمونه برای گالری با مودال ساده -->
+<!--         <div class="container">
+            <div class="row">
+                <div class="gallery-title">
+                    <h2>Just Gallery</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="gallery">
+                    <figure class="card">
+                        <img style="left: -8rem;" src="images/lakeview-elegance.png" alt="Lakeview Elegance preview">
+                    </figure>
+                    <figure class="card">
+                        <img style="left: -6rem;" src="images/skyline-oasis.png" alt="Skyline Oasis preview">
+                    </figure>
+                    <figure class="card">
+                        <img style="left: -14rem;" src="images/vista-paradiso.png" alt="Vista Paradiso preview">
+                    </figure>
+                    <figure class="card">
+                        <img style="left: -8rem;" src="images/villa-verde.png" alt="Villa Verde preview">
+                    </figure>          
+                </div>
+            </div>
+        </div> -->
 Gallery With Simple Modal & Pagination
 توضیح کوتاهی در مورد گالری با مودال ساده و صفحه‌بندی.
 
