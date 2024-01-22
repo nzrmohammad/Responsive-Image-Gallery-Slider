@@ -9,10 +9,11 @@
 #### ویژگی‌های گالری 1
 
 <p align="center">
-  <strong>Desktop Mode + Light Theme</strong>
+  <strong> Gallery </strong>
 </p>
 <p align="center">
-  <img src="Screenshot/ScreenShot1.jpg" width="50%" alt="Desktop Mode + Light Theme">
+  <img src="Screenshots/Gallery1.png" width="50%" alt="Gallery1.png">
+  <img src="Screenshots/Gallery2.png" width="50%" alt="Gallery2.png">
 </p>
 
 
