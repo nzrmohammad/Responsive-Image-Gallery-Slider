@@ -15,7 +15,7 @@
 
 ### گالری با مدال ساده
 <p align="center">
-  <strong>Gallery With Modal</strong>
+  <strong>Gallery With Simple Modal</strong>
 </p>
 <p align="center">
   <img src="Screenshots/Gallery3.png" width="50%" alt="Gallery3.png">
@@ -24,10 +24,10 @@
 
 ### گالری با مدال ساده و صفحه بندی
 <p align="center">
-  <strong>Desktop Mode + Light Theme</strong>
+  <strong>Gallery With Simple Modal & Pagination</strong>
 </p>
 <p align="center">
-  <img src="Screenshot/ScreenShot1.jpg" width="50%" alt="Desktop Mode + Light Theme">
+  <img src="Screenshots/Gallery4.png" width="50%" alt="Desktop Mode + Light Theme">
 </p>
 
 
