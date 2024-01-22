@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gallery Project with Lightbox & Pagination</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet" />
+        <style>
+            .pagination a 
+            {
+                padding: 8px 16px;
+                margin: 0 4px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                text-decoration: none;
+                color: #333;
+                transition: background-color .3s;
+            }
+            .pagination a.active 
+            {
+                background-color: #4CAF50;
+                color: white;
+                border-color: #4CAF50;
+            }
+            .pagination a:hover:not(.active) 
+            {
+                background-color: #ddd;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="gallery-title">
+                    <h2>Gallery with Lightbox & Pagination</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="gallery" id="gallery">
+                    <!-- Your images here -->
+                </div>
+            </div>
+            <div class="pagination" id="pagination">
+                <!-- Pagination controls will be added here -->
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+
+        <script>
+            const imagesPerPage = 4;
+            let currentPage = 1;
+            const images = 
+            [
+                { src: 'images/lakeview-elegance.png', title: 'Lakeview Elegance' },
+                { src: 'images/skyline-oasis.png', title: 'Skyline Oasis' },
+                { src: 'images/villa-verde.png', title: 'Villa Verde' },
+                { src: 'images/vista-paradiso.png', title: 'Vista Paradiso' },
+                // Add more images as needed
+                { src: 'images/villa-verde.png', title: 'Villa Verde' },
+                { src: 'images/vista-paradiso.png', title: 'Vista Paradiso' },
+                { src: 'images/lakeview-elegance.png', title: 'Lakeview Elegance' },
+                { src: 'images/skyline-oasis.png', title: 'Skyline Oasis' },
+            ];
+
+            function renderGallery() 
+            {
+                const gallery = document.getElementById('gallery');
+                gallery.innerHTML = '';
+                const start = (currentPage - 1) * imagesPerPage;
+                const end = start + imagesPerPage;
+                const pageImages = images.slice(start, end);
+                for (const image of pageImages) 
+                {
+                    gallery.innerHTML += `
+                        <figure class="card">
+                            <a href="${image.src}" data-lightbox="gallery" data-title="${image.title}">
+                                <img src="${image.src}" alt="${image.title} preview">
+                            </a>
+                        </figure>
+                    `;
+                }
+            }
+
+            function navigateToPage(page) 
+            {
+                currentPage = page;
+                renderGallery();
+                renderPagination();
+            }
+
+            function renderPagination() 
+            {
+                const pagination = document.getElementById('pagination');
+                pagination.innerHTML = '';
+                const pageCount = Math.ceil(images.length / imagesPerPage);
+                for (let i = 1; i <= pageCount; i++) 
+                {
+                    const pageLink = document.createElement('a');
+                    pageLink.href = '#';
+                    pageLink.innerText = i;
+                    pageLink.onclick = function () 
+                    { 
+                        navigateToPage(i); 
+                    };
+                    if (currentPage === i) 
+                    {
+                        pageLink.classList.add('active');
+                    }
+                    pagination.appendChild(pageLink);
+                }
+            }
+
+            renderGallery();
+            renderPagination();
+
+        </script>
+    </body>
+
+</html>
