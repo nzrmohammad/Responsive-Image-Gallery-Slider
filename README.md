@@ -19,8 +19,12 @@
 
 #### ویژگی‌های گالری 2
 
-![توضیح تصویر 1](لینک_به_تصویر_1)
-![توضیح تصویر 2](لینک_به_تصویر_2)
+<p align="center">
+  <strong>Desktop Mode + Light Theme</strong>
+</p>
+<p align="center">
+  <img src="Screenshot/ScreenShot1.jpg" width="50%" alt="Desktop Mode + Light Theme">
+</p>
 
 
 ### گالری 3
@@ -29,8 +33,12 @@
 
 #### ویژگی‌های گالری 3
 
-![توضیح تصویر 1](لینک_به_تصویر_1)
-![توضیح تصویر 2](لینک_به_تصویر_2)
+<p align="center">
+  <strong>Desktop Mode + Light Theme</strong>
+</p>
+<p align="center">
+  <img src="Screenshot/ScreenShot1.jpg" width="50%" alt="Desktop Mode + Light Theme">
+</p>
 
 ### گالری 4
 
@@ -38,8 +46,12 @@
 
 #### ویژگی‌های گالری 4
 
-![توضیح تصویر 1](لینک_به_تصویر_1)
-![توضیح تصویر 2](لینک_به_تصویر_2)
+<p align="center">
+  <strong>Desktop Mode + Light Theme</strong>
+</p>
+<p align="center">
+  <img src="Screenshot/ScreenShot1.jpg" width="50%" alt="Desktop Mode + Light Theme">
+</p>
 
 ### گالری 5
 
@@ -47,8 +59,19 @@
 
 #### ویژگی‌های گالری 5
 
-![توضیح تصویر 1](لینک_به_تصویر_1)
-![توضیح تصویر 2](لینک_به_تصویر_2)
+<p align="center">
+  <strong>Desktop Mode + Light Theme</strong>
+</p>
+<p align="center">
+  <img src="Screenshot/ScreenShot1.jpg" width="50%" alt="Desktop Mode + Light Theme">
+</p>
 
 ### کارهای آینده
+<ul style="list-style-type:none;">
+    <li><input type="checkbox" checked disabled> - [x] Publish Initial Version of the Website </li>
+    <li><input type="checkbox" checked> - [ ] Fix PDF Export Issue </li>
+    <li><input type="checkbox" checked> - [ ] Optimize for SEO </li>
+    <li><input type="checkbox" checked> - [ ] Optimize Performance </li>
+    <li><input type="checkbox" checked> - [ ] Regularly Update Content </li>
+</ul>
 
