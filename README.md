@@ -15,10 +15,10 @@
 
 ### گالری با مدال ساده
 <p align="center">
-  <strong>Desktop Mode + Light Theme</strong>
+  <strong>Gallery With Modal</strong>
 </p>
 <p align="center">
-  <img src="Screenshot/ScreenShot1.jpg" width="50%" alt="Desktop Mode + Light Theme">
+  <img src="Screenshots/Gallery3.png" width="50%" alt="Gallery3.png">
 </p>
 
 
