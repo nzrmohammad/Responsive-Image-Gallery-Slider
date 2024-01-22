@@ -16,6 +16,7 @@
 </p>
 
 
+
 ### گالری 2
 
 توضیح کوتاهی در مورد گالری ساده و ویژگی‌های اصلی آن.
@@ -27,6 +28,7 @@
 <p align="center">
   <img src="Screenshot/ScreenShot1.jpg" width="50%" alt="Desktop Mode + Light Theme">
 </p>
+
 
 ### گالری 3
 
@@ -40,6 +42,7 @@
   <img src="Screenshot/ScreenShot1.jpg" width="50%" alt="Desktop Mode + Light Theme">
 </p>
 
+
 ### گالری 4
 
 توضیح کوتاهی در مورد گالری ساده و ویژگی‌های اصلی آن.
@@ -52,6 +55,7 @@
 <p align="center">
   <img src="Screenshot/ScreenShot1.jpg" width="50%" alt="Desktop Mode + Light Theme">
 </p>
+
 
 ### گالری 5
 
