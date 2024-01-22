@@ -18,7 +18,7 @@
   <strong>Gallery With Simple Modal</strong>
 </p>
 <p align="center">
-  <img src="Screenshots/Gallery3.png" width="50%" alt="Gallery3.png">
+  <img src="Screenshots/Gallery3.png" width="50%" alt="Gallery3">
 </p>
 
 
@@ -27,35 +27,35 @@
   <strong>Gallery With Simple Modal & Pagination</strong>
 </p>
 <p align="center">
-  <img src="Screenshots/Gallery4.png" width="50%" alt="Desktop Mode + Light Theme">
+  <img src="Screenshots/Gallery4.png" width="50%" alt="Gallery4">
 </p>
 
 
 ### گالری با Lightbox2
 <p align="center">
-  <strong>Desktop Mode + Light Theme</strong>
+  <strong>Gallery With Lightbox</strong>
 </p>
 <p align="center">
-  <img src="Screenshots/Gallery5.png" width="50%" alt="Desktop Mode + Light Theme">
+  <img src="Screenshots/Gallery5.png" width="50%" alt="Gallery5">
 </p>
 
 
 ### گالری با Lightbox2 و صفحه بندی
 
 <p align="center">
-  <strong>Desktop Mode + Light Theme</strong>
+  <strong>Gallery With Lightbox & Pagination</strong>
 </p>
 <p align="center">
-  <img src="Screenshots/Gallery6.png" width="50%" alt="Desktop Mode + Light Theme">
+  <img src="Screenshots/Gallery6.png" width="50%" alt="Gallery6">
 </p>
 
 ### کارهای آینده
 <ul style="list-style-type: none;" dir="rtl">
     <li><input type="checkbox" checked disabled> - [x] انتشار نسخه اولیه </li>
-    <li><input type="checkbox" checked> - [ ] انتشار نسخه گالری با مدال ساده </li>
-    <li><input type="checkbox" checked> - [ ] انتشار نسخه گالری با مدال ساده و صفحه بندی </li>
-    <li><input type="checkbox" checked> - [ ] انتشار گالری با Lightbox2 </li>
-    <li><input type="checkbox" checked> - [ ] انتشار گالری با Lightbox2 و صفحه بندی </li>
+    <li><input type="checkbox" checked> - [x] انتشار نسخه گالری با مدال ساده </li>
+    <li><input type="checkbox" checked> - [x] انتشار نسخه گالری با مدال ساده و صفحه بندی </li>
+    <li><input type="checkbox" checked> - [x] انتشار گالری با Lightbox2 </li>
+    <li><input type="checkbox" checked> - [x] انتشار گالری با Lightbox2 و صفحه بندی </li>
     <li><input type="checkbox" checked> - [ ] رسپانسیو کردن </li>
     <li><input type="checkbox" checked> - [ ] اضافه کردن عکس و توضیحات </li>
 </ul>
