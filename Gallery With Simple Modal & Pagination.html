@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gallery Project With Simple Modal & Pagination</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="gallery-title">
+                    <h2>Gallery With Simple Modal & Pagination</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="gallery" id="gallery">
+                    <!-- Images will be dynamically loaded here -->
+                </div>
+            </div>
+            <div class="pagination" id="pagination">
+                <!-- Pagination controls will be dynamically loaded here -->
+            </div>
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+
+        <script>
+            let currentPage = 1;
+            const imagesPerPage = 4;
+            const images = 
+            [
+                { src: "images/lakeview-elegance.png", alt: "Lakeview Elegance preview" },
+                { src: "images/skyline-oasis.png", alt: "Skyline Oasis preview" },
+                { src: "images/vista-paradiso.png", alt: "Vista Paradiso preview" },
+                { src: "images/villa-verde.png", alt: "Villa Verde preview" },
+                // Add more images here
+                { src: "images/vista-paradiso.png", alt: "Vista Paradiso preview" },
+                { src: "images/villa-verde.png", alt: "Villa Verde preview" },
+                { src: "images/lakeview-elegance.png", alt: "Lakeview Elegance preview" },
+                { src: "images/skyline-oasis.png", alt: "Skyline Oasis preview" },
+            ];
+
+            function displayImages() 
+            {
+                const gallery = document.getElementById('gallery');
+                gallery.innerHTML = '';
+                const startIndex = (currentPage - 1) * imagesPerPage;
+                const endIndex = startIndex + imagesPerPage;
+                images.slice(startIndex, endIndex).forEach(image => 
+                {
+                    gallery.innerHTML += `
+                        <figure class="card">
+                            <img src="${image.src}" alt="${image.alt}">
+                        </figure>
+                    `;
+                });
+                setupModal();
+            }
+
+            function setupPagination() 
+            {
+                const pagination = document.getElementById('pagination');
+                pagination.innerHTML = '';
+                const totalPages = Math.ceil(images.length / imagesPerPage);
+                for (let i = 1; i <= totalPages; i++) 
+                {
+                    const pageLink = document.createElement('a');
+                    pageLink.textContent = i;
+                    pageLink.className = currentPage === i ? 'active-page' : '';
+                    pageLink.onclick = function() 
+                    {
+                        currentPage = i;
+                        displayImages();
+                        setupPagination();
+                    };
+                    pagination.appendChild(pageLink);
+                }
+            }
+
+            function setupModal() 
+            {
+                document.querySelectorAll('.gallery .card img').forEach(img => 
+                {
+                    img.onclick = function() 
+                    {
+                        const modal = document.getElementById('myModal');
+                        const modalImg = document.getElementById('img01');
+                        const captionText = document.getElementById('caption');
+                        modal.style.display = "block";
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt;
+                    }
+                });
+            }
+
+            document.getElementsByClassName("close")[0].onclick = function() 
+            {
+                document.getElementById('myModal').style.display = "none";
+            };
+
+            displayImages();
+            setupPagination();
+        </script>
+    </body>
+    
+</html>
