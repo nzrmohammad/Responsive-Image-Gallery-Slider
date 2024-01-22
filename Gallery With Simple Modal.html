@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Gallery Project With Simple Modal</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="gallery-title">
+                    <h2>Gallery With Simple Modal</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="gallery">
+                    <figure class="card">
+                        <img src="images/lakeview-elegance.png" alt="Lakeview Elegance preview">
+                    </figure>
+                    <figure class="card">
+                        <img style="left: -6rem;" src="images/skyline-oasis.png" alt="Skyline Oasis preview">
+                    </figure>
+                    <figure class="card">
+                        <img style="left: -14rem;" src="images/vista-paradiso.png" alt="Vista Paradiso preview">
+                    </figure>
+                    <figure class="card">
+                        <img style="left: -8rem;" src="images/villa-verde.png" alt="Villa Verde preview">
+                    </figure>     
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+
+        <script>
+            document.querySelectorAll('.gallery .card img').forEach(img => 
+            {
+                img.onclick = function() 
+                {
+                    var modal = document.getElementById('myModal');
+                    var modalImg = document.getElementById('img01');
+                    var captionText = document.getElementById('caption');
+                    modal.style.display = "block";
+                    modalImg.src = this.src;
+                    captionText.innerHTML = this.alt;
+                }
+            });
+            var span = document.getElementsByClassName("close")[0];
+            span.onclick = function() 
+            {
+                var modal = document.getElementById('myModal');
+                modal.style.display = "none";
+            }
+        </script>
+    </body>
+    
+</html>
