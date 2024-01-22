@@ -1,8 +1,4 @@
-# نام پروژه
-
-توضیح کوتاهی در مورد پروژه و هدف کلی آن.
-
-## معرفی گالری‌ها
+# معرفی گالری‌ها
 
 در این پروژه، چندین نوع گالری با قابلیت‌ها و طراحی‌های متفاوت ارائه شده است. در ادامه، هر یک از این گالری‌ها به طور جداگانه توضیح داده شده است.
 
@@ -68,10 +64,10 @@
 
 ### کارهای آینده
 <ul style="list-style-type:none;">
-    <li><input type="checkbox" checked disabled> - [x] Publish Initial Version of the Website </li>
-    <li><input type="checkbox" checked> - [ ] Fix PDF Export Issue </li>
-    <li><input type="checkbox" checked> - [ ] Optimize for SEO </li>
-    <li><input type="checkbox" checked> - [ ] Optimize Performance </li>
-    <li><input type="checkbox" checked> - [ ] Regularly Update Content </li>
+    <li><input type="checkbox" checked disabled> - [x] انتشار نسخه اولیه </li>
+    <li><input type="checkbox" checked> - [ ] انتشار نسخه گالری با مدال ساده </li>
+    <li><input type="checkbox" checked> - [ ] انتشار نسخه گالری با مدال ساده و صفحه بندی </li>
+    <li><input type="checkbox" checked> - [ ] انتشار گالری با Lightbox2 </li>
+    <li><input type="checkbox" checked> - [ ] انتشار گالری با Lightbox2 و صفحه بندی </li>
 </ul>
 
