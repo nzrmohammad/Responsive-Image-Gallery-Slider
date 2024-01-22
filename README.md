@@ -6,23 +6,22 @@
 
 توضیح کوتاهی در مورد گالری ساده و ویژگی‌های اصلی آن.
 
-#### ویژگی‌های گالری 1
+#### ویژگی‌های گالری 
 
 <p align="center">
   <strong> Gallery </strong>
 </p>
 <p align="center">
-  <img src="Screenshots/Gallery1.png" width="50%" alt="Gallery1.png">
-  <img src="Screenshots/Gallery2.png" width="50%" alt="Gallery2.png">
+  <img src="Screenshots/Gallery1.png" width="75%" alt="Gallery1.png">
+  <img src="Screenshots/Gallery2.png" width="75%" alt="Gallery2.png">
 </p>
-
 
 
 ### گالری با مدال ساده
 
 توضیح کوتاهی در مورد گالری ساده و ویژگی‌های اصلی آن.
 
-#### ویژگی‌های گالری 2
+#### ویژگی‌های گالری گالری با مدال ساده
 <p align="center">
   <strong>Desktop Mode + Light Theme</strong>
 </p>
@@ -35,7 +34,7 @@
 
 توضیح کوتاهی در مورد گالری ساده و ویژگی‌های اصلی آن.
 
-#### ویژگی‌های گالری 3
+#### ویژگی‌های گالری با مدال ساده و صفحه بندی
 <p align="center">
   <strong>Desktop Mode + Light Theme</strong>
 </p>
@@ -48,7 +47,7 @@
 
 توضیح کوتاهی در مورد گالری ساده و ویژگی‌های اصلی آن.
 
-#### ویژگی‌های گالری 4
+#### ویژگی‌های گالری با Lightbox2
 
 <p align="center">
   <strong>Desktop Mode + Light Theme</strong>
@@ -62,7 +61,7 @@
 
 توضیح کوتاهی در مورد گالری ساده و ویژگی‌های اصلی آن.
 
-#### ویژگی‌های گالری 5
+#### ویژگی‌های گالری با Lightbox2 و صفحه بندی
 
 <p align="center">
   <strong>Desktop Mode + Light Theme</strong>
