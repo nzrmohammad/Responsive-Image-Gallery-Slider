@@ -36,7 +36,7 @@
   <strong>Desktop Mode + Light Theme</strong>
 </p>
 <p align="center">
-  <img src="Screenshot/ScreenShot1.jpg" width="50%" alt="Desktop Mode + Light Theme">
+  <img src="Screenshots/Gallery5.png" width="50%" alt="Desktop Mode + Light Theme">
 </p>
 
 
