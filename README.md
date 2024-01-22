@@ -63,9 +63,9 @@
 </p>
 
 ### کارهای آینده
-<ul style="list-style-type:none;" dir="rtl">
+<ul style="list-style-type: none;" dir="rtl">
     <li><input type="checkbox" checked disabled> - [x] انتشار نسخه اولیه </li>
-    <li><input type="checkbox" checked> - [✅] انتشار نسخه گالری با مدال ساده </li>
+    <li><input type="checkbox" checked> - [] انتشار نسخه گالری با مدال ساده </li>
     <li><input type="checkbox" checked> - [ ] انتشار نسخه گالری با مدال ساده و صفحه بندی </li>
     <li><input type="checkbox" checked> - [ ] انتشار گالری با Lightbox2 </li>
     <li><input type="checkbox" checked> - [ ] انتشار گالری با Lightbox2 و صفحه بندی </li>
