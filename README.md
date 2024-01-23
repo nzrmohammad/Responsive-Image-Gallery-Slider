@@ -56,7 +56,7 @@
     <li><input type="checkbox" checked> - [x] انتشار نسخه گالری با مدال ساده و صفحه بندی </li>
     <li><input type="checkbox" checked> - [x] انتشار گالری با Lightbox2 </li>
     <li><input type="checkbox" checked> - [x] انتشار گالری با Lightbox2 و صفحه بندی </li>
+    <li><input type="checkbox" checked> - [x] اضافه کردن عکس و توضیحات </li>
     <li><input type="checkbox" checked> - [ ] رسپانسیو کردن </li>
-    <li><input type="checkbox" checked> - [ ] اضافه کردن عکس و توضیحات </li>
 </ul>
 
