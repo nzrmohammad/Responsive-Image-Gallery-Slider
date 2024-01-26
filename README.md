@@ -8,7 +8,7 @@
   <strong> Gallery </strong>
 </p>
 <p align="center">
-  <img src="Screenshots/Gallery1.png" width="50%" alt="Gallery1.png">
+  <img src="Screenshots/Profile1.png" width="50%" alt="Gallery1.png">
   <img src="Screenshots/Gallery2.png" width="50%" alt="Gallery2.png">
 </p>
 
